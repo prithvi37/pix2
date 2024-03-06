@@ -86,19 +86,19 @@ infoZonesMap.forEach((row, i)=>{
 
 c.fillRect(0,0,canvas.width,canvas.height)
 const image = new Image() // map image object
-image.src = 'assetimg/roadmap2.png'
+image.src = 'roadmap2.png'
 
 const playerUpImage = new Image() //player image object
-playerUpImage.src = 'assetimg/playerUp.png'
+playerUpImage.src = 'playerUp.png'
 
 const playerLeftImage = new Image() //player image object
-playerLeftImage.src = 'assetimg/playerLeft.png'
+playerLeftImage.src = 'playerLeft.png'
 
 const playerRightImage = new Image() //player image object
-playerRightImage.src = 'assetimg/playerRight.png'
+playerRightImage.src = 'playerRight.png'
 
 const playerDownImage = new Image() //player image object
-playerDownImage.src = 'assetimg/playerDown.png'
+playerDownImage.src = 'playerDown.png'
 
 
 class Sprite{
